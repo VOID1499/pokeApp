@@ -71,7 +71,7 @@ nav {
     height: 30px;
     background-color:transparent;
     border: none;
-    background-image: url('../assets/images/search-svg.svg');
+    background-image: url('public/assets/images/search-svg.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

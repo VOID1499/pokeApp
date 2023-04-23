@@ -71,7 +71,7 @@ nav {
     height: 30px;
     background-color:transparent;
     border: none;
-    background-image: url('../images/search-svg.svg');
+    background-image: url('../assests/images/search-svg.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -212,7 +212,7 @@ nav {
     height: 25px;
     background-color: transparent;
     border: none;
-    background-image: url('../assets/images/close-svg.svg');
+    background-image: url('/pokeApp/assets/images/close-svg.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }

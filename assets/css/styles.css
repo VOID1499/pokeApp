@@ -191,8 +191,7 @@ nav {
 /* Modal */
 
 .modal{
-    max-width: 400px;
-    min-width: 250px;
+    width: 400px;
     height: 600px;
     background-color: #FFFFFF;
     position: fixed;
@@ -392,3 +391,11 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+
+@media  (max-width: 768px) {
+    .modal{
+        width: 300px;
+    }
+    
+  }

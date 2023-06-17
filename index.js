@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded' , e=>{
 document.addEventListener('click' , e=>{
 
     if(e.target.matches('#btn-buscar')){
-        //le paso lo que tiene el input
+        
         buscarPokemon();
     }
 
@@ -66,7 +66,7 @@ document.addEventListener("click", async e =>{
 
         const $form = document.querySelector("form.form-busqueda");
         let elementos = $form.elements;
-        let input = elementos.busqueda.value; 
+        let input = elementos.busqueda.value.toLowerCase(); 
         let url =  `https://pokeapi.co/api/v2/pokemon/${input}`
         
         pantallaDeCarga(buscarPokemon,url)
